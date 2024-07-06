@@ -1,0 +1,363 @@
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    display: block;
+    unicode-bidi: isolate;
+}
+.container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    margin-top: 10px;
+    width: 100%;
+}   
+.container1::before{
+    content: "";
+    background: 
+    linear-gradient(to bottom right,transparent 70%,black 100%),
+    linear-gradient(to top left,transparent 70%,black 100%),
+    url('https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/a7d20bc1-831c-4f9d-8153-11bdf7a08d23/IN-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_13cda806-d858-493e-b4aa-f2792ff965dc_medium.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: -1;
+    text-align: center;
+    background-size: cover;
+}
+
+.flex-item1{
+    text-align: center;
+  }
+.button1{
+    padding: 3px 15px;
+    background-color: rgba(229,9,20);
+    border-radius: 10%;
+    color: white;
+    margin: 22px 0px 0px -65px;
+}
+ .container1-text{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 210px;
+    font-family:sans-serif;
+    margin-left: -12px;
+ }
+ .button3{
+    padding: 14px 22px 13px 25px;
+    background-color: rgba(229,9,20);
+    border: rgba(0,0,0,0);
+    border-radius: 3%;
+    color: white;
+    margin: 22px 0px 0px -65px;
+    font-size: 24px;
+    font-weight: 700 !important;
+    margin:-20px 0px 0px 5px;
+}
+input::placeholder{
+    color:white ;
+    font-weight: 300 !important;
+    font-size: 16px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 50px;
+    margin: 45px 10px 10px 70px;
+}
+.grid-1{
+    width: 600px;
+    height: 500px;
+    margin: 110px 70px 90px 0px;
+    /* border: 2px solid white; */
+}
+.container3-text{
+    color: white;
+}
+.container3-img{
+    margin-top: -300px;
+    padding-top: 15px;
+}
+.container3-video{
+    border: 0px;
+}
+.flex-1{
+    font-size: 18px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: -25px; 
+     color: whitesmoke;
+     border: 1px solid  aqua;
+     background-color: black;
+     padding: 6px 20px 6px 10px ;
+     border-radius: 10%;
+     font-weight: 300 !important; 
+     border: 1px solid gray;
+}
+.border{
+    border:none;
+    border-bottom: 9px solid rgba(45,45,45);
+    margin-top: 117px;
+    width: 1550 !important;
+    margin-left: -10px;
+    margin-right: -7px;
+}
+.border2{
+        border:none;
+        border-bottom: 9px solid rgba(45,45,45);
+        margin-top: -200px !important;
+        width: 1550 !important;
+}
+.grid-2{
+    width: 700px;
+    height: 500px;
+    margin: 158px 500px 90px -70px; */
+    border: 2px solid white;
+}
+.text{
+    font-weight: 800 !important; 
+    font-size: 44.5px;
+    padding: 20px 0px 0px 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    margin-left: 200px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin-top: 50px;
+    margin: -21px 10px 0px 220px;
+}
+.button4{
+    border: 2px solid palevioletred;
+    padding: 11px 212px 4px 5px;
+    background-color: black;
+    margin-left: -326px;
+    margin-top: -65px;
+    border-radius: 6%;
+}
+.grid-3{
+    width: 57px;
+    height: 73px;
+    margin-left: 5px;
+}
+.g3-text{
+    color: white;
+    font-size: 17px;
+    margin: -67px 10px 10px -238px;
+}
+.g3-video{
+    width: 125px;
+    height: 90px;
+    color: white;
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif);
+    font-size: 50px;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin-left: -108px;
+    margin-top: -55px;
+}
+.g3-text1{
+    color: blue;
+    font-size: 15px;
+    margin: -7px 10px 10px -238px;
+}
+.container5{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    margin: -30px 0px 0px 20px;
+    width: 1600px;
+}
+.container5-text{
+    color: white;
+    font-weight: 800 !important; 
+    font-size: 44px;
+    padding: 20px 0px 0px 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 190px;
+    margin-bottom: -10px;
+    margin-left: 50px;
+}
+.container5-text1{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 77px;
+    padding-right: 20px;
+    margin: 13px 0px 0px 57px;
+}
+.grid-5{
+    margin: 20px 0px 0px -470px;
+}
+.grid5-img{
+    width: 100%;
+    height: auto;
+    margin: -370px 0px 0px 4px;
+    width: 510px;
+    height: 370px;
+    position: relative;
+}
+.grid5-video{
+    margin: 85px 0px 108px -424px;
+    width: 317px;
+    height: 278px;
+    
+}
+.border3{
+    border:none;
+    border-bottom: 9px solid rgba(45,45,45);
+    margin-top: 40px !important;
+    width: 1550 !important;
+  
+}
+.container6{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+.container6-img{
+    width: 515px;
+    height: 380px;
+    margin:  60px 0px 0px 150px;
+}
+.container6-text{
+    color: white;
+    font-weight: 800 !important;
+    font-size: 45px;
+    padding: 20px 0px 0px 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 89px;
+    margin-bottom: -10px;
+    margin-left: -55px;
+}
+.container6-1{
+    margin: 110px 0px 0px -210px;
+
+}
+.container6-text1{
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 77px;
+    padding-right: 20px;
+    margin: 13px 0px 0px -205px;
+    margin-top: 10px;
+}
+.border4{
+    border:none;
+    border-bottom: 9px solid rgba(45,45,45);
+    margin-top: 60px !important;
+    width: 1550 !important;
+    margin-bottom: ;
+}
+.container7{
+    display: flex;
+    gap: 300px;
+}
+.container7-text1{
+    color: white;
+    font-weight: 800 !important;
+    font-size: 45px;
+    padding: 20px 0px 0px 80px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    margin-left: 260px;
+}
+.button5{
+    background-color: rgba(45, 45, 45);
+    padding: 17px 1px 17px 30px;
+    margin: 10px 0px 0px 160px;
+    color: white;
+    font-size: 27px;
+    text-align:left;
+    border: none;
+    font-weight: 400 !important;
+    /* display: inline-block; */
+    width: 77%;
+}
+
+.button5-1{
+    color: wheat;
+    margin: -90px 185px 0px 0px;
+    text-align: end;
+    font-size: 60px;
+    font-weight: 100 !important;
+}
+.button6{
+    background-color: rgba(45, 45, 45);
+    padding: 17px 300px 17px 25px !important    ;
+    margin: 18px 0px 10px 140px;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    border: none;
+    font-weight: 400 !important;
+    display: inline-block;
+    width: 100%;
+}
+.container7-text2{
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.container8{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: auto; */
+     font-weight: bold;
+     color: rgba(255, 255, 255, 0.7);
+     font-weight: 400;
+     margin-top: 70px;
+     font-size: 15px !important;
+}
+.grid-8{
+    /* border: 1px solid wheat; */
+    width: 250px;
+    height: 300px;
+    gap: 0px;
+
+}
+.g8-1{
+    margin: 0px 0px 0px 20px;
+    width: 400px;
+    padding:0px 0px 0px 140px ;
+}
+.g8-2{
+    margin: 30px 20px 0px -230px !important;
+    width: 200px;
+    padding-top: 12px !important;
+}
+.g8-3{
+    padding-left: 30px !important;
+    padding-top:12px !important;
+}
+.flex-8{
+    display: flex;
+    /* flex-wrap: wrap !important; */
+    flex-direction: column;
+    padding-top: 4px;
+    text-decoration: underline;
+}
+.g8-4{
+    padding-left: 50px !important;
+}
+.flex8-1{
+    margin: 35px 20px 0px -120px;
+    text-align:left;
+    padding-left: 0px;
+}
+/* @media  {
+    
+} */
